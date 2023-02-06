@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="axis-eureka" />
+        <module name="Axis-SARAL-Eureka" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Axis-SARAL-Eureka" options="-parameters" />
       <module name="axis-eureka" options="-parameters" />
     </option>
   </component>
